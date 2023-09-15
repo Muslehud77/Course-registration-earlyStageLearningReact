@@ -3,6 +3,7 @@ import Cart from "./Components/Cart/Cart"
 import Cards from "./Components/cards/Cards"
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
+import Footer from "./Components/footer/Footer";
 
 function App() {
  const [carts,setCarts] = useState([])
@@ -92,6 +93,7 @@ theme: "dark",
       </div>
 
 
+<Footer></Footer>
 <ToastContainer />
 
     </>
