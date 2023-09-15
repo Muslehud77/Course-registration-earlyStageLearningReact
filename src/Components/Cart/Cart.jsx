@@ -1,7 +1,7 @@
 
 import PropTypes from 'prop-types';
 
-const Cart = ({titles,creditRemaining,credit,price}) => {
+const Cart = ({carts,creditRemaining,credit,price}) => {
     
     return (
         <div className='space-y-5 bg-white p-5 rounded-xl h-min'>
@@ -12,8 +12,8 @@ const Cart = ({titles,creditRemaining,credit,price}) => {
             
                 <ol className='list-decimal p-5'>
                     {
-                        titles.map((title,index)=> {
-                            return <li key={index}>{title}</li>
+                        carts.map((cart,index)=> {
+                            return <li key={index}>{cart.title}</li>
                         })
                     }
                 </ol>
@@ -28,7 +28,7 @@ const Cart = ({titles,creditRemaining,credit,price}) => {
 };
 
 Cart.propTypes = {
-    titles : PropTypes.array.isRequired,
+    carts : PropTypes.array.isRequired,
     creditRemaining : PropTypes.number,
     credit : PropTypes.number,
     price: PropTypes.number
