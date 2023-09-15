@@ -64,10 +64,12 @@ theme: "dark",
     <>
       
       <h1 className="text-4xl font-bold text-center py-5">Course Registration</h1>
-      <div className=" md:flex gap-8 container mx-auto">
+    <div className="container mx-auto">
+        <div className="flex flex-col-reverse justify-center items-center lg:items-start lg:flex-row gap-8 ">
         <Cards handleCart={handleCart}></Cards>
         <Cart price={price} creditRemaining={creditRemaining} credit={credit} carts={carts}></Cart>
       </div>
+    </div>
 
 {/* Limit Modal  */}
       <div>

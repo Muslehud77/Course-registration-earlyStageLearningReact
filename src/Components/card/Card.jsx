@@ -11,7 +11,7 @@ const {title,description,cover_img,price,credit} = card
     return (
         <div>
             
-          <div className="p-5 w-96 space-y-4 bg-white rounded-xl">
+          <div className="p-5 lg:w-[375px] space-y-4 bg-white rounded-xl">
   <figure>
     <img src={cover_img} alt={title} className="rounded-xl w-full" />
   </figure>

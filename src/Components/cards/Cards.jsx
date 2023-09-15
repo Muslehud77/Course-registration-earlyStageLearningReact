@@ -20,7 +20,7 @@ useEffect(()=>{
 
 
     return (
-        <div className="md:grid grid-cols-3 gap-5 w-9/12">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-5 w-9/12">
             {
                 cards.map((card,index) => <Card handleCart={handleCart} card={card} key={index}></Card>)
             }
