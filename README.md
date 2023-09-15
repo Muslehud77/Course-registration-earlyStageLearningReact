@@ -1,8 +1,13 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Add at least 3 Project features 
 
-Currently, two official plugins are available:
+- You cannot add a course multiple times, it will show a toast notification.  
+- I have added toast notification from toastify library for the duplicates.
+- You cannot pass beyond 20 hours limit, it will show a Modal with the remaining credits
+- You can have the sum of total price
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Discuss how you managed the state in your assignment project.
+
+In this project i have used 5 useStates, One for each dynamic changes in the website.
+Firstly i declared an useState for all the cards to set from the side effect, then one for the cart's course name, one for the remaining credits, one for the total credit and one for the total price.
