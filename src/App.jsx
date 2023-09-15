@@ -11,9 +11,9 @@ function App() {
   const [credit,setCredit] = useState(0)
   const [price,setPrice] = useState(0)
 
-const notify = () => {
+const notify = (title) => {
 
-  toast.error("This Course is Already Added to Your Cart", {
+  toast.error(`${title} is already Added to Your Cart`, {
 position: "bottom-center",
 autoClose: 5000,
 hideProgressBar: true,
@@ -32,7 +32,7 @@ theme: "dark",
   let credit = parseInt(card.credit.replace('hours','' ));
 
   if(isExist){
-   return notify()
+   return notify(card.title)
   }else{
 
     carts.forEach(cart => {
