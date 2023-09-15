@@ -2,9 +2,24 @@
 import PropTypes from 'prop-types';
 import { AiFillDollarCircle } from "@react-icons/all-files/ai/AiFillDollarCircle";
 import { FaBookOpen } from '@react-icons/all-files/fa/FaBookOpen';
+import { useState } from 'react';
 
-const Card = ({card,handleTitles}) => {
+const Card = ({card,handleCart}) => {
 const {title,description,cover_img,price,credit} = card
+
+const [status,setStatus] = useState(false)
+const handleClick = ()=>{
+    if(!status){
+        setStatus(!status)
+        handleCart(card)
+    }
+    handleCart(card)
+}
+
+
+
+
+
     return (
         <div>
             
@@ -27,7 +42,7 @@ const {title,description,cover_img,price,credit} = card
                 <p>Credit : {credit}</p>
             </div>
         </div>
-      <button onClick={()=>{handleTitles(title)}} className="btn bg-blue-600 hover:bg-blue-900 text-white w-full">select</button>
+      <button onClick={()=>{handleClick()}} className="btn bg-blue-600 hover:bg-blue-900 text-white w-full">select</button>
     
   </div>
 </div>
@@ -40,7 +55,7 @@ const {title,description,cover_img,price,credit} = card
 
 Card.propTypes = {
     card : PropTypes.object.isRequired,
-    handleTitles: PropTypes.func.isRequired,
+    handleCart: PropTypes.func.isRequired,
 };
 
 export default Card;
