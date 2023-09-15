@@ -1,80 +1,72 @@
 [
     {
-      "id": 1,
+      "id": 101,
       "title": "Introduction to C Programming",
-      "description": "Explore the fundamentals of C programming language. Learn syntax, data types, and basic programming concepts. This course offers 3 hours of comprehensive instruction.",
+      "description": "Explore the basics of C programming. Learn syntax, data types, and programming concepts. 3 hours of comprehensive instruction.",
       "cover_img": "https://i.ibb.co/48FtnfK/Rectangle-2-2.png",
       "price": "$49.99",
       "credit": "3 hours"
     },
     {
-      "id": 2,
+      "id": 102,
       "title": "Introduction to Algorithms",
-      "description": "Delve into the world of algorithms. Understand sorting, searching, and algorithmic problem-solving. This course provides 4 hours of in-depth learning.",
+      "description": "Dive into algorithms. Understand sorting, searching, and problem-solving. 4 hours of in-depth learning.",
       "cover_img": "https://i.ibb.co/NsCnZxK/Rectangle-2-3.png",
       "price": "$59.99",
       "credit": "4 hours"
     },
     {
-      "id": 3,
-      "title": "Introduction to C++ for DSA (Data Structures and Algorithms)",
-      "description": "Master C++ programming for data structures and algorithms. Learn STL and solve coding challenges. This course delivers 5 hours of intensive instruction.",
+      "id": 103,
+      "title": "Introduction to C++ for DSA",
+      "description": "Master C++ for data structures and algorithms. Learn STL and coding challenges. 5 hours of intensive instruction.",
       "cover_img": "https://i.ibb.co/MRMyycX/Rectangle-2-4.png",
       "price": "$69.99",
       "credit": "5 hours"
     },
     {
-      "id": 4,
+      "id": 104,
       "title": "Basic Data Structures",
-      "description": "Get acquainted with essential data structures. Learn about arrays, linked lists, and stacks. This course offers 2 hours of comprehensive training.",
+      "description": "Get acquainted with data structures. Learn about arrays, linked lists, and stacks. 2 hours of comprehensive training.",
       "cover_img": "https://i.ibb.co/PGtFk9d/Rectangle-3.png",
       "price": "$39.99",
       "credit": "2 hours"
     },
     {
-      "id": 5,
-      "title": "Introduction to Object-Oriented Programming (OOP) in Python",
-      "description": "Discover the principles of OOP using Python. Understand classes, objects, and inheritance. This course delivers 3 hours of in-depth learning.",
+      "id": 105,
+      "title": "Introduction to OOP Python",
+      "description": "Discover Python OOP. Understand classes, objects, and inheritance. 3 hours of in-depth learning.",
       "cover_img": "https://i.ibb.co/vv9BHyx/Rectangle-2.png",
       "price": "$49.99",
       "credit": "3 hours"
     },
     {
-      "id": 6,
+      "id": 106,
       "title": "Software Engineering",
-      "description": "Dive into the world of software engineering. Learn best practices in software development and project management. This course provides 6 hours of intensive instruction.",
-      "cover_img": "software_engineering.jpg",
+      "description": "Dive into software engineering. Learn best practices in development and project management. 6 hours of intensive instruction.",
+      "cover_img": "https://i.ibb.co/SsWYF1W/Rectangle-2-5.png",
       "price": "$79.99",
       "credit": "6 hours"
     },
     {
-      "id": 7,
+      "id": 107,
       "title": "AWS (Amazon Web Services)",
-      "description": "Explore cloud computing with AWS. Learn about EC2, S3, and cloud architecture. This course offers 4 hours of comprehensive training.",
+      "description": "Explore AWS cloud computing. Learn about EC2, S3, and cloud architecture. 4 hours of comprehensive training.",
       "cover_img": "https://i.ibb.co/LSn6bSS/Rectangle-3-1.png",
       "price": "$59.99",
       "credit": "4 hours"
     },
     {
-      "id": 8,
-      "title": "Cloud Computing",
-      "description": "Discover the world of cloud computing. Understand cloud services and deployment models. This course provides 3 hours of in-depth learning.",
-      "cover_img": "https://i.ibb.co/SsWYF1W/Rectangle-2-5.png",
-      "price": "$49.99",
-      "credit": "3 hours"
-    },
-    {
-      "id": 9,
+      "id": 108,
       "title": "Database (MySQL)",
-      "description": "Learn about MySQL databases. Understand database design, SQL queries, and data management. This course offers 5 hours of comprehensive instruction.",
+      "description": "Learn MySQL databases. Understand database design, SQL queries, and data management. 5 hours of comprehensive instruction.",
       "cover_img": "https://i.ibb.co/vYzTyHz/Rectangle-2-1.png",
       "price": "$69.99",
       "credit": "5 hours"
     },
     {
-      "id": 10,
+      "id": 109,
       "title": "Problem-Solving Part",
-      "description": "Enhance your problem-solving skills. Learn algorithmic thinking and tackle coding challenges. This course delivers 4 hours of intensive instruction.",
+      "description": "Enhance problem-solving skills. Learn algorithmic thinking and tackle coding challenges. 4 hours of intensive instruction.",
       "cover_img": "https://i.ibb.co/bbFKGtK/Rectangle-2-6.png",
       "price": "$59.99",
       "credit": "4 hours"
