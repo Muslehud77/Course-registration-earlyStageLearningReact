@@ -30,8 +30,6 @@ function App() {
     const newListOfTitles = [...carts,card]
     setCarts(newListOfTitles)
 
-   
-
     const courseCredit = card.credit.replace('hours','' )
     const coursePrice = card.price.replace('$','')
     setCreditRemaining(creditRemaining-parseInt(courseCredit))
